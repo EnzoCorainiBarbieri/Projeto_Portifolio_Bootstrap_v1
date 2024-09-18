@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiências Profissionais - Portfólio de Enzo C. Barbieri</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="position-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="{{ url_for('index') }}">
+                                Início
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('contact') }}">
+                                Contato
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('experience') }}">
+                                Experiência/Certificações
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <header>
+                    <h1>Enzo C. Barbieri</h1>
+                </header>
+                <section class="experience">
+                    <h2>Resumo Profissional</h2>
+
+
+                    <p>Profissional de tecnologia com experiência em suporte técnico e gestão de sistemas, atualmente como Analista de Suporte T.I. Júnior na Heineken Brasil. Cursando graduação em Ciência da Computação e já formado técnico em Administração. Possuo sólido histórico em análise e organização de chamados, suporte a usuários, e gestão de infraestrutura de TI. Experiência no desenvolvimento de projetos acadêmicos, como a liderança sendo representante de turma e um hub de desenvolvimento de sistemas. Certificado em testes de software (CTFL - ISTQB/BSTQB) e fundamentos de gestão de TI, já tendo desenvolvido alguns sistemas (projetos acadêmicos) em várias linguagens de programação, incluindo Python, C++, e SQL. Buscando oportunidades para aplicar e expandir seus conhecimentos em sistemas e infraestrutura tecnológica..</p>
+        </section>
+        <section class="experience">
+            <h2>Experiências de Trabalho</h2>
+            <div class="job">
+                <h3>Analista de Suporte T.I. Júnior - Heineken Brasil</h3>
+                <p><strong>Período:</strong> Nov/2023 - Presente</p>
+                <p><strong>Atividades desenvolvidas:</strong></p>
+                <ul>
+                    <li>Organização de chamados</li>
+                    <li>Solicitações e análise de propostas</li>
+                    <li>Solicitações de RC</li>
+                    <li>Acompanhamento das atividades dos fornecedores</li>
+                    <li>Atualização de relatórios</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Faturista - KD Comprou Comercio Varejista</h3>
+                <p><strong>Período:</strong> Ago/2020 - Nov/2023</p>
+                <p><strong>Atividades desenvolvidas:</strong></p>
+                <ul>
+                    <li>Emissão de notas fiscais</li>
+                    <li>Processamento de pedidos</li>
+                    <li>Atualização de movimento de estoque</li>
+                    <li>Lançamento em sistema de pagamentos</li>
+                    <li>Recebimento e conferência de pedidos</li>
+                    <li>Confecção de relatórios de produção diários</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Assistente de Suporte de TI - Consórcio Nacional Massey Ferguson</h3>
+                <p><strong>Período:</strong> Ago/2017 - Jul/2019</p>
+                <p><strong>Atividades desenvolvidas:</strong></p>
+                <ul>
+                    <li>Suporte a funcionários internos e externos</li>
+                    <li>Instalação e configuração de sistemas</li>
+                    <li>Manutenção e preparação de computadores</li>
+                    <li>Controle de estoque de componentes e periféricos</li>
+                    <li>Cotação e solicitação de materiais</li>
+                    <li>Programação de pagamentos</li>
+                </ul>
+            </div>
+        </section>
+
+
+                <section class="projects">
+                    <h2>Projetos Relevantes</h2>
+                    <div class="project">
+                        <h3>Hub acadêmico de desenvolvimento de sistemas</h3>
+                        <p><strong>Descrição:</strong> Idealizado para atender tanto às necessidades internas quanto externas da faculdade...</p>
+                    </div>
+                </section>
+                <section class="education">
+                    <h2>Formação Acadêmica</h2>
+                    <div class="certification">
+                        <h3>Bacharel em Ciências da Computação - Faculdade Unimax</h3>
+                        <p><strong>Período:</strong> 2023 - 2026</p>
+                    </div>
+                </section>
+                <section class="skills">
+                    <h2>Habilidades e Competências</h2>
+                    <ul>
+                        <li>Certificação de testes - CTFL - ISTQB/BSTQB - Udemy</li>
+                        <li>Fundamentos da gestão de T.I. - FGV</li>
+                    </ul>
+                </section>
+                <footer>
+                    <p>&copy; 2024 Enzo C. Barbieri - Todos os direitos reservados.</p>
+                </footer>
+            </main>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
